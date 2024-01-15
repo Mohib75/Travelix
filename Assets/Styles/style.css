@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+:root {
+	--primary-color: #131318;
+	--secondary-color: #5a5a5d;
+	--button-color: #ff5400;
+	--white: #fff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Mulish", sans-serif;
+}
+
+/* shared-styles */
+.container {
+	width: 81%;
+	max-width: 1170px;
+}
+
+h1 {
+	color: var(--primary-color);
+	text-align: center;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+
+p {
+	color: var(--secondary-color);
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+/* navbar styles */
+.header {
+	margin: 40px auto;
+	min-height: 25px;
+}
+
+.header .navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar .logo {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.navbar .logo .logo-special {
+	color: var(--button-color);
+}
+
+.navbar .navlist {
+	display: flex;
+	gap: 36px;
+	list-style: none;
+}
+
+.navbar .navlist .nav-item a {
+	text-decoration: none;
+	color: var(--secondary-color);
+	text-align: center;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.navbar .navlist .nav-item:first-child a {
+	color: var(--button-color);
+	font-weight: 700;
+}
