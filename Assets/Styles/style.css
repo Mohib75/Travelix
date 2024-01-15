@@ -445,3 +445,59 @@ main section {
 	width: 201px;
 	align-self: center;
 }
+
+/* scenery section styles */
+#scenery {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	min-height: 424px;
+	justify-content: space-between;
+}
+
+#scenery .scenery-text {
+	width: 45%;
+	max-width: 469px;
+}
+
+#scenery .scenery-text ul {
+	color: var(--secondary-color);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	padding-left: 20px;
+}
+
+#scenery .scenery-text ul li {
+	padding-bottom: 15px;
+}
+
+#scenery .scenery-text p {
+	margin: 20px 0;
+}
+
+#scenery .scenery-text h1 {
+	text-align: left;
+}
+
+#scenery .scenary-video {
+	position: relative;
+	height: 80%;
+}
+
+#scenery .scenary-video h2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: var(--white);
+	text-align: center;
+}
+
+#scenery .scenary-video video {
+	display: block;
+	max-width: 496px;
+	border-radius: 16px;
+	background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0) 100%);
+}
